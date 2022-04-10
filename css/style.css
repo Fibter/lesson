@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  margin-top: 20px;
+  width: 200px;
+  height: auto;
+  color: red;
+  background-color: black;
+  border-radius: 10px;
+}
+.container--name {
+  margin-top: 20px;
+  color: red;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: blueviolet;
+}
+
+.dell {
+  margin-left: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
