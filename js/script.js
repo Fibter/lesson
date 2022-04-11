@@ -24,8 +24,32 @@ const a = prompt('Один из последних просмотренных ф
 personalMovieDB.movies[a] = b;
 personalMovieDB.movies[c] = d;
 
-console.log(personalMovieDB);
+console.log(personalMovieDB);   
 
 
 
+(num === 50) ? console.log('ok') : console.log('error');    //тернарный оператор  
+
+const number = 50;        //сравнение
+
+switch (number) { 
+        case 49:
+            console.log('error');
+            break;
+        case 45:
+            console.log('no');
+            break;
+         case 50:   
+            console.log('yes');
+            break;
+}
+
+
+const first = 40;      //сравнение по фложенности
+
+if (first < 30) { 
+    console.log('error');
+} else if (first >30) {   
+    console.log('good');
+}
 
