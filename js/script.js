@@ -53,3 +53,26 @@ if (first < 30) {
     console.log('good');
 }
 
+
+
+let yet =50;            //циклы
+
+while (yet < 55) {  
+    console.log(yet);
+    yet++;
+}   
+
+do {                     //сначало делать
+    console.log(yet);
+    yet++;
+}   
+while (yet < 55)    
+
+
+
+for (let i=1; i<8; i++) {          //основа
+    console.log(yet);
+    yet++;
+}
+
+
