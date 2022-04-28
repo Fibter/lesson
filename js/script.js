@@ -15,14 +15,14 @@ const personalMovieDB = {
     genres: [],
     privat: false
 };
+ 
 
-const a = prompt('Один из последних просмотренных фильмов?', ''),
-      b = prompt('На сколько оцените его?', ''),
-      c = prompt('Один из последних просмотренных фильмов?', ''),
-      d = prompt('На сколько оцените его?', '');
+for (i=0; i<2; i++) {   
+    const a = prompt('Один из последних просмотренных фильмов?', ''),
+          b = prompt('На сколько оцените его?', '');
 
-personalMovieDB.movies[a] = b;
-personalMovieDB.movies[c] = d;
+          personalMovieDB.movies[a] = b;
+}
 
 console.log(personalMovieDB);   
 
@@ -76,3 +76,53 @@ for (let i=1; i<8; i++) {          //основа
 }
 
 
+
+let result = '';
+const length = 7;   
+
+for (let i = 1; i<length; i++) {    
+    for (let j=0; j<i; j++) {   
+        result += "*";
+    }   
+    result += '\n';
+}   
+
+console.log (result);
+
+
+
+
+for (let i = 2; i <= 10; i++) {
+    if (i % 2 === 0) {
+        console.log(i);
+    }
+}
+
+
+let boy =10;
+
+function showFirstMessage (text) {  
+    console.log(text);  
+    boy= 10;
+}
+
+showFirstMessage("Hello World");    
+console.log(boy);   
+
+
+function calc (a,b) {   
+    return (a + b);
+}   
+
+console.log(calc(4,5));
+
+
+
+const logger = function () {    
+    console.log("hello");
+};  
+
+logger();   
+
+
+const calco = (a,b) => a+b;
